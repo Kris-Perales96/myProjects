@@ -1,0 +1,13 @@
+This project is a simple matrix engine, where it performs either an add, subtract, transpose, multiply, or scale
+on two 4x4 matricies. The main components of the project are an execution unit, instruction memory, main memory, and an ALU.
+The execution unit operates as a state machine which are:
+-Fetch an instruction
+-Decode the instruction
+-Read from main memory the indicated (from the instruction) matrix 1
+-Push matrix 1 to ALU
+-Read from main memory the indicated (from the instruction) matrix 2
+-Push matrix 2 to ALU
+-Tell ALU to go and execute the operation indicated (from instruction)
+-Wait for all done signal from ALU
+-Write back to registers, which in this case since I had the registers within the main memory is the same as writing to main memory
+-Continue process until stop instruction is reached

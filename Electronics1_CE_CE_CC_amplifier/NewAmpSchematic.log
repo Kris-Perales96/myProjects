@@ -1,0 +1,22 @@
+Circuit: * C:\Users\Kris\Desktop\projectsForResume\Electronics1_CE_CE_CC_amplifier\NewAmpSchematic.asc
+
+Direct Newton iteration for .op point succeeded.
+Changing Tseed to 1e-008
+
+Date: Sat Jan 18 16:12:05 2020
+Total elapsed time: 0.060 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 525
+traniter = 513
+tranpoints = 194
+accept = 134
+rejected = 59
+matrix size = 28
+fillins = 2
+solver = Normal
+Matrix Compiler1: 2.03 KB object code size  0.4/0.2/[0.2]
+Matrix Compiler2: 2.44 KB object code size  0.2/0.3/[0.2]
+

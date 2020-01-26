@@ -1,0 +1,133 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project FinalProject
+# Compile of matrixMemory_tb.v was successful.
+# Compile of matrixMemoryRevised.v was successful.
+# Compile of IMem.v was successful.
+# Compile of IMem_tb.v was successful.
+# Compile of MainMemory.v was successful.
+# Compile of MainMemory_tb.v was successful.
+# Compile of resultRegisters.v was successful.
+# Compile of stateMachine.v was successful.
+# Compile of stateMachine_tb.v was successful.
+# Compile of ExecutionUnit.v was successful.
+# Compile of executionUnit_tb.v was successful.
+# Compile of ALU.v was successful.
+# 12 compiles, 0 failed with no errors.
+restart
+# Loading work.executionUnit_tb
+# Loading work.ExecutionUnit
+# Loading work.matrixMemoryRevised
+# Loading work.IMem
+# Loading work.ALU
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Add Result: 
+# 
+run
+#    27    57    71    56 
+# 
+#    14    12    15    10 
+# 
+#    27    58    21    25 
+# 
+#     5    20    23    12 
+# 
+# Add Result: 
+# 
+#    27    57    71    56 
+# 
+#    14    12    15    10 
+# 
+#    27    58    21    25 
+# 
+#     5    20    23    12 
+# 
+run
+# Subtract Result: 
+# 
+#    23    45    67    22 
+# 
+#     7     6     4     1 
+# 
+#    18    56    13    12 
+# 
+#     3     5     7     9 
+# 
+# Subtract Result: 
+# 
+run
+#    23    45    67    22 
+# 
+#     7     6     4     1 
+# 
+#    18    56    13    12 
+# 
+#     3     5     7     9 
+# 
+run
+# Transpose Result: 
+# 
+#    27    14    27     5 
+# 
+#    57    12    58    20 
+# 
+#    71    15    21    23 
+# 
+#    56    10    25    12 
+# 
+# Transpose Result: 
+# 
+#    27    14    27     5 
+# 
+#    57    12    58    20 
+# 
+#    71    15    21    23 
+# 
+#    56    10    25    12 
+# 
+run
+# Scale Result: 
+# 
+#   216   112   216    40 
+# 
+#   456    96   464   160 
+# 
+#   568   120   168   184 
+# 
+#   448    80   200    96 
+# 
+run
+# Scale Result: 
+# 
+#   216   112   216    40 
+# 
+#   456    96   464   160 
+# 
+#   568   120   168   184 
+# 
+#   448    80   200    96 
+# 
+run
+# Multiply Result: 
+# 
+# 29792  8008 17864  8768 
+# 
+# 59688 16096 31624 16792 
+# 
+# 44408 13752 30424 11312 
+# 
+# 36232 11192 23336  9592 
+# 
+# Multiply Result: 
+# 
+# 29792  8008 17864  8768 
+# 
+# 59688 16096 31624 16792 
+# 
+# 44408 13752 30424 11312 
+# 
+# 36232 11192 23336  9592 
+# 
+run

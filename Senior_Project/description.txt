@@ -1,0 +1,9 @@
+The cpp file provided is the code I developed using mbed online compiler to execute my senior design 
+project. Which was a wearable health monitoring system for active firefighters. The vital signs monitored
+are movement, the temperature of the surroundings, and the heart rate of the wearer. Temperature warnings were 
+signaled using a vibrating motor and toggling a flag when a critical value was reached. The heart rate warnings 
+utilized the vibrating motor and toggled certain flags when critical values were reached. Then movement was montiored
+by tracking a change in accelerataion of the wearer, and if the wearer has not generated a "significant" change in 
+acceleration for a pre-determined amount of time a flag was toggled. However, if at any point the wearer generated a 
+"significant" change in acceleration the flag would be reset. The same goes for the temperature and heart rate flags.
+Then the state of the device is sent via a wireless Zigbee network to the main console. 

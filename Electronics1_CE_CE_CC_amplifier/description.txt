@@ -1,0 +1,6 @@
+This project was tasked with generating a voltage large enough to power two 8 ohm wired speakers.
+All that was given to the groups was that the input supply would be 10mV source and the speakers 
+were both 8 ohms. Then it was completely up to the individual groups of how to generate a large 
+enough output to power the speakers. Within the folder is a pdf file of the work I conducted to 
+generate the coordinating schematic that is also within the folder. Also, within the folder is 
+an output pdf out the generated output.  
